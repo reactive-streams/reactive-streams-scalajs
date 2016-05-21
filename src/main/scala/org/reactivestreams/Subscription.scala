@@ -1,7 +1,6 @@
 package org.reactivestreams
 
-/**
-  * A [[Subscription]] epresents a one-to-one lifecycle of a [[Subscriber]]
+/** A [[Subscription]] represents a one-to-one lifecycle of a [[Subscriber]]
   * subscribing to a [[Publisher]].
   *
   * It can be used only once by a single [[Subscriber]]. It is used
