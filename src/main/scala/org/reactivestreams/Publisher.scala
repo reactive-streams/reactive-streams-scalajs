@@ -9,7 +9,7 @@ package org.reactivestreams
   *
   * @tparam T the type of element signaled.
   */
-trait Publisher[T] extends Any {
+trait Publisher[T] {
   /**
     * Request the publisher to start streaming data.
     *
